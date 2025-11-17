@@ -1,0 +1,19 @@
+[project]
+name = "hybrid"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter",
+    "logging>=0.4.9.6",
+    "numpy",
+    "requests",
+    "silero-vad",
+    "soundfile",
+    "tone>=0.1.0",
+    "torch",
+    "torchaudio",
+    "tqdm",
+    "transformers",
+]
